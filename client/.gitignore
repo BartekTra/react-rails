@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# DONT PUSH UP ENV FILES OK OK
+.env 
+.env.development
+

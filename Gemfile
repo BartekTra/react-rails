@@ -16,6 +16,10 @@ gem "turbo-rails"
 gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
+
+# Rack for Cross-Origin Resource Sharing (CORS)
+gem "rack-cors"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
@@ -42,7 +46,9 @@ group :development, :test do
   gem "brakeman", require: false
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
-  gem "rubocop-rails-omakase", require: false
+  gem "rubocop-rails-omakase", require: false\
+
+  gem "faker"
 end
 
 group :development do
@@ -55,3 +61,8 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "tailwindcss-rails", "~> 2.7"
+
+gem "graphql", "~> 2.3"
+gem "graphiql-rails", group: :development
