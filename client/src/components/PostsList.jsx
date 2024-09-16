@@ -8,7 +8,7 @@ function PostsList() {
   useEffect(() => {
     async function loadPosts() {
       try {
-        const response = await fetch(API_URL + `/graphql`, {
+        const response = await fetch(API_URL, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -45,7 +45,7 @@ function PostsList() {
     <div>
       {posts.map((post) => (
         <div key={post.id} className="post-container">
-          <h2> {post.title} </h2>
+          <h1> {post.title} </h1>
           <p> {post.body} </p>
         </div>
       ))}
