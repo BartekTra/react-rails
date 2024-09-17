@@ -37,7 +37,7 @@ function PostDetails() {
     fetchCurrentPost();
   }, [id]);
 
-  if (!post) return <h2> Loading... </h2>
+  if (!post) return null;
 
   return (
     <div>
