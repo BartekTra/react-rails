@@ -70,4 +70,4 @@ gem "graphiql-rails", group: :development
 gem 'activerecord'
 gem 'activemodel'
 gem 'activesupport'
-gem 'bigdecimal', '1.4.2'
+gem 'bigdecimal', '3.1.7'
