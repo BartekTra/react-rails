@@ -66,8 +66,3 @@ gem "tailwindcss-rails", "~> 2.7"
 
 gem "graphql", "~> 2.3"
 gem "graphiql-rails", group: :development
-
-gem 'activerecord'
-gem 'activemodel'
-gem 'activesupport'
-gem 'bigdecimal', '3.1.7'
